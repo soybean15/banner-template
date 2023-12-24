@@ -6,9 +6,9 @@
       <label for="my-drawer" class="btn btn-primary drawer-button fixed top-3 left-3 ">Menu</label>
      
     </div> 
-    <div class="drawer-side">
+    <div class="drawer-side z-99 ">
       <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-      <ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+      <ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content ">
         <input type="text"  v-model="content.schoolName" placeholder="School Name" class="input input-bordered w-full max-w-xs" />
 
         <input type="text" v-model="content.title1" placeholder="Title 1" class="input input-bordered w-full max-w-xs" />
@@ -37,5 +37,7 @@ export default {
 </script>
 
 <style>
-
+.drawer{
+    z-index: 99 !important;
+}
 </style>

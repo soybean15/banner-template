@@ -1,12 +1,12 @@
 <template>
-    <div class="relative mb-16 ">
+    <div class="relative md:mb-16 ">
       <!-- Outline Text (on top) -->
-      <div class="flex text-8xl font-bold tomorrow relative z-10 text-[#E2C799]" >
+      <div class="flex text-[6vw] md:text-[12vw] font-bold tomorrow relative z-10 text-[#E2C799]" >
         {{ title }}
       </div>
   
       <!-- Original Text (behind) -->
-      <div class="flex text-8xl font-bold tomorrow absolute -bottom-12 left-10 z-0 text-outline">
+      <div class="flex text-[6vw] md:text-[12vw] font-bold tomorrow absolute -bottom-2 left-2  md:-bottom-12 md:left-10 z-0 text-outline">
         {{ title }}
       </div>
     </div>

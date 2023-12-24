@@ -1,8 +1,8 @@
 <template>
-  <div class="home   ">
+  <div class="home  ">
   
   <Drawer/>
-  <div class=" flex justify-center   ">
+  <div class=" flex justify-center   mt-20 ">
     <div class=" max-w-[1200px] flex bg-black aspect-video p-3  ">
       <hero/>
     </div>
