@@ -1,7 +1,9 @@
 <template>
-    <div class="relative md:mb-16 ">
+    <div class="flex  items-center relative md:mb-16 ">
       <!-- Outline Text (on top) -->
-      <div class="flex text-[5vw] md:text-[7vw] font-bold tomorrow relative z-10 text-[#E2C799]" >
+      <div>
+
+              <div class="flex text-[5vw] md:text-[6vw] font-bold tomorrow relative z-10 text-[#E2C799]" >
         {{ title==''?'Title1':title }}
       </div>
   
@@ -9,6 +11,11 @@
       <div class="flex text-[4.7vw] md:text-[6vw] font-bold tomorrow absolute -bottom-2 left-2  md:-bottom-12 md:left-10 z-0 text-outline">
         {{ title==''?'Title1':title }}
       </div>
+      </div>
+
+
+    
+
     </div>
   </template>
   
