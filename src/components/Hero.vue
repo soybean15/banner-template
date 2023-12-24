@@ -15,7 +15,7 @@
            
             <HeroTitle :title="content.title1"/>
             <div class="flex text-[3vw] md:text-[5vw] mt-4 justify-center items-center rochester ">
-                <div class="  md:h-20 mx-4 pr-4 border-r-2 md:border-r-8 flex items-center border-[#E2C799]">
+                <div class="  md:h-20 pr-2  mr-2 md:pr-4  md:pr-4  md:mr-4  border-r-2 md:border-r-8 flex items-center border-[#E2C799]">
                     {{ content.title2 }}
                     
                 </div>
