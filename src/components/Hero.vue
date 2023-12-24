@@ -1,17 +1,17 @@
 <template>
-    <div class=" border-4 border-[#E2C799] py-20 px-10  text-gray-200   flex items-center  relative  content" >
+    <div class=" border-2 md:border-4 border-[#E2C799] py-20 px-10  text-gray-200   flex items-center  relative  content" >
         <div>
 
-            <img class="w-20 md:w-32 absolute top-3 left-3" src="@/assets/corner.svg"/>
-            <img class="w-20 md:w-32 absolute top-3  right-3" src="@/assets/corner.svg" style="transform: scalex(-1);"/>
-            <img class="w-20 md:w-32 absolute bottom-3 right-3" src="@/assets/corner.svg" style="transform: scaleX(-1) scaleY(-1);"/>
-            <img class="w-20 md:w-32 absolute bottom-3 left-3" src="@/assets/corner.svg" style="transform: scaleY(-1);"/>
+            <img class="w-12 md:w-32 absolute top-1 left-1 md:top-3  md:left-3" src="@/assets/corner.svg"/>
+            <img class="w-12 md:w-32 absolute top-2  md:top-1 right-1 md:right-3" src="@/assets/corner.svg" style="transform: scalex(-1);"/>
+            <img class="w-12 md:w-32 absolute bottom-1 right-1 md:bottom-3 md:right-3" src="@/assets/corner.svg" style="transform: scaleX(-1) scaleY(-1);"/>
+            <img class="w-12 md:w-32 absolute bottom-1 left-1 md:bottom-3 md:left-3" src="@/assets/corner.svg" style="transform: scaleY(-1);"/>
           
         </div>
 
   
         <div class="w-full px-5 flex flex-col">
-            <div class="flex text-[3vw] md:text-[4vw] font-bold poppins "> {{ content.schoolName }}</div>
+            <div class="flex text-[3vw] md:text-[3vw] font-bold poppins "> {{ content.schoolName }}</div>
            
             <HeroTitle :title="content.title1"/>
             <div class="flex text-[3vw] md:text-[5vw] mt-4 justify-center items-center rochester ">
