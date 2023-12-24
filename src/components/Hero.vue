@@ -10,8 +10,8 @@
         </div>
 
   
-        <div class="w-full px-5 flex flex-col">
-            <div class="flex text-[3vw] md:text-[3vw] font-bold poppins "> {{ content.schoolName }}</div>
+        <div class="w-full px-2 md:px-5 flex flex-col">
+            <div class="flex text-[2vw]  font-bold poppins "> {{ content.schoolName }}</div>
            
             <HeroTitle :title="content.title1"/>
             <div class="flex text-[3vw] md:text-[5vw] mt-4 justify-center items-center rochester ">

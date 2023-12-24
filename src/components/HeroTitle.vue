@@ -19,10 +19,19 @@
   </script>
   
   <style>
+@media screen and (min-width: 768px) {
   .text-outline {
     -webkit-text-stroke: 2px #E2C799;
     text-stroke: 2px #E2C799;
-    color: black; /* Text color */
+    color:black;
   }
+}
+
+/* Default text outline thickness for small screens */
+.text-outline {
+  -webkit-text-stroke: 1px #E2C799;
+  text-stroke: 1px #E2C799;
+  color:black;
+}
   </style>
   
