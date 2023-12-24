@@ -3,7 +3,7 @@
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content">
       <!-- Page content here -->
-      <label for="my-drawer" class="btn btn-primary drawer-button fixed top-3 left-3 ">Menu</label>
+      <label for="my-drawer" class="btn btn-primary drawer-button fixed top-3 left-3 ">Edit Content</label>
      
     </div> 
     <div class="drawer-side z-99 ">
