@@ -9,7 +9,7 @@ export const useContentStore = defineStore('content', ()=>{
  
     
     const content = ref({
-        schoolName:'School Name',
+        schoolName:'NEUST Penaranda Off Campus',
         title1:'Class of 2024',
         title2:'Pinning Ceremony',
         date:'January 2024'
