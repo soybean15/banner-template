@@ -11,7 +11,7 @@ export const useContentStore = defineStore('content', ()=>{
     const content = ref({
         schoolName:'School Name',
         title1:'Class of 2024',
-        title2:'Pinning Celebration',
+        title2:'Pinning Ceremony',
         date:'January 2024'
     })
 

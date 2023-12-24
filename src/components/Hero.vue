@@ -1,17 +1,26 @@
 <template>
-    <div class="w-full m-5 border-2 py-20 px-10 flex  justify-center items-center aspect-video max-w-[1000px]" >
+    <div class=" border-4 border-[#E2C799] py-20 px-10  text-gray-200   flex items-center  relative" >
+        <div>
 
+            <img class="w-32 absolute top-3 left-0" src="@/assets/corner.svg"/>
+            <img class="w-32 absolute top-3  right-0" src="@/assets/corner.svg" style="transform: scalex(-1);"/>
+            <img class="w-32 absolute bottom-3 right-0" src="@/assets/corner.svg" style="transform: scaleX(-1) scaleY(-1);"/>
+            <img class="w-32 absolute bottom-3 left-0" src="@/assets/corner.svg" style="transform: scaleY(-1);"/>
+          
+        </div>
+
+  
         <div class="w-full px-5 flex flex-col">
             <div class="flex text-2xl font-bold poppins "> {{ content.schoolName }}</div>
            
             <HeroTitle :title="content.title1"/>
-            <div class="flex text-5xl rochester">
-                <div class="">
+            <div class="flex text-7xl mt-4 justify-center items-center rochester ">
+                <div class=" h-20 mx-4 pr-4 border-r-8 border-[#E2C799]">
                     {{ content.title2 }}
                     
                 </div>
 
-                <div class="mx-2">|</div>
+              
                 
                 <div class="">
                     {{ content.date }}

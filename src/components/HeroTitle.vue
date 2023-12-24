@@ -1,12 +1,12 @@
 <template>
-    <div class="relative mb-16">
+    <div class="relative mb-16 ">
       <!-- Outline Text (on top) -->
-      <div class="flex text-8xl font-bold tomorrow relative z-10 ">
+      <div class="flex text-8xl font-bold tomorrow relative z-10 text-[#E2C799]" >
         {{ title }}
       </div>
   
       <!-- Original Text (behind) -->
-      <div class="flex text-8xl font-bold tomorrow absolute -bottom-12 left-10 text-red-400 z-0 text-outline">
+      <div class="flex text-8xl font-bold tomorrow absolute -bottom-12 left-10 z-0 text-outline">
         {{ title }}
       </div>
     </div>
@@ -20,9 +20,9 @@
   
   <style>
   .text-outline {
-    -webkit-text-stroke: 1px black; /* WebKit/Blink browsers */
-    text-stroke: 1px black; /* Standard syntax */
-    color: white; /* Text color */
+    -webkit-text-stroke: 2px #E2C799;
+    text-stroke: 2px #E2C799;
+    color: black; /* Text color */
   }
   </style>
   

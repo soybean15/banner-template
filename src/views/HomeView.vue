@@ -1,9 +1,12 @@
 <template>
-  <div class="home  ">
+  <div class="home   ">
   
   <Drawer/>
-  <div class=" flex justify-center">
-    <hero/>
+  <div class=" flex justify-center   ">
+    <div class=" max-w-[1200px] flex bg-black aspect-video p-3  ">
+      <hero/>
+    </div>
+   
 
   </div>
 
